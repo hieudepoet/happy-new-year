@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="website icon" type="png" href="image/cat.png">
+    <link rel="website icon" type="png" href="image/snake.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="intro.css">
-    <title>Happy New Year 2023</title>
+    <title>Happy New Year 2025</title>
 </head>
 <body>
     <div class="box-slider">
@@ -31,8 +31,7 @@
             </div>
             <div class="box-button">
                 <div class="button">
-                    <button>Ấn vào đây nè!</button>
-                    <span><i class="fa-solid fa-heart"></i></span>
+                    <button>BẮT ĐẦU</button>
                 </div>
             </div>
             <div class="box-slider_img1">
@@ -101,11 +100,11 @@
                     <img src="image/Lion-dance2.gif" alt="">
                 </div>
             </div>
-            <div class="cat">
-                <img src="image/cat.png" alt="">
+            <div class="snake">
+                <img src="image/snake.png" alt="">
             </div>
             <div class="box-number">
-                <div class="number2023">
+                <div class="number2025">
                     <div class="number">
                         <span>2</span>
                     </div>
@@ -116,7 +115,7 @@
                         <span>2</span>
                     </div>
                     <div class="number">
-                        <span>3</span>
+                        <span>5</span>
                     </div>
                 </div>
             </div>
@@ -161,11 +160,10 @@
             <div class="rhombus"></div>
             <div class="rhombus"></div>
             <div class="rhombus-img">
-                <img id="img-cua-em" src="https://mimosawedding.net/wp-content/uploads/2020/03/hoc-chup-anh-o-dau-ha-noi-3.jpg" alt="">
+                <img id="img-cua-em" src="image/image-of-family.jpg" alt="">
             </div>
             <div class="mail">
                 <button><i class="fa-regular fa-envelope"></i></button>
-                <span class="heart"><i class="fa-solid fa-heart"></i></span>
             </div>
         </div>
         <div class="slider3">
@@ -194,7 +192,7 @@
                             <div class="text-content">
                                 <h2>Happy New</h2>
                                 <h1>Year</h1>
-                                <span>2023</span>
+                                <span>2025</span>
                             </div>
                         </div>
                     </div>
@@ -210,13 +208,13 @@
                 <div class="right">
                     <div class="content">
                         <div class="title">
-                            <h1 id="name-cua-em">&#129505Gửi em !</h1>
+                            <h1 id="name-cua-em">&#129505Gửi cả nhà!</h1>
                         </div>
                         <p id="message-content">
-                            Chúc em luôn vui vẻ, hạnh phúc, thành công trong công việc và cuộc sống.
+                            Chúc gia đình mình luôn vui vẻ và hạnh phúc!
                         </p>
                         <div class="fixedContent">
-                            <h3>Người gửi: Bé Công</h3>
+                            <h3>From: Hieu Dinh Viet</h3>
                         </div>
                     </div>
                 </div>
@@ -227,26 +225,7 @@
 
     <audio id="song">
         <source src="image/nhac.mp3" type="audio/mp3">
-    </audio>
-
-<script src="./data.js"></script>
-
-<script>
-    // get request GET name
-    var urlParams = new URLSearchParams(window.location.search);
-    var name = urlParams.get('name');
-    // search name in data_name
-    if (name != null) {
-        for (var i = 0; i < data_name.length; i++) {
-            if (name == data_name[i].name) {
-                document.getElementById("name-cua-em").innerHTML = data_name[i].name;
-                document.getElementById("img-cua-em").src = data_name[i].img;
-                document.getElementById("message-content").innerHTML = data_name[i].message;
-                break;
-            }
-        }
-    }
-
+    </audio>    
 
 </script>
 <script src="./intro.js"></script>
